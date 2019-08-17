@@ -7,4 +7,4 @@ soup = BeautifulSoup(page)
 all_links=soup.find_all("a")
 for link in all_links:
 	print link.get("href")
-
+abc
